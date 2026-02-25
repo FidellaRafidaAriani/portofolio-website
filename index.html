@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Saya</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: 
+        linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+        linear-gradient(135deg, #ffe5d9, #ffd7ba, #fec89a);
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body class="text-[#4A3F35] scroll-smooth">
+
+<!-- NAVBAR -->
+<nav class="bg-white/70 backdrop-blur-md shadow-md fixed w-full z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-bold text-xl">MyPortfolio</h1>
+    <div class="space-x-6 hidden md:block font-medium">
+      <a href="#about" class="hover:text-orange-500">Tentang</a>
+      <a href="#skills" class="hover:text-orange-500">Skill</a>
+      <a href="#penugasan" class="hover:text-orange-500">Penugasan</a>
+      <a href="#projects" class="hover:text-orange-500">Proyek</a>
+      <a href="#contact" class="hover:text-orange-500">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="pt-40 pb-24 text-center">
+  <h2 class="text-5xl font-bold mb-4">Nama Kamu</h2>
+  <p class="text-xl">Frontend Developer | Informatics Student</p>
+</section>
+
+<!-- TENTANG SAYA -->
+<section id="about" class="py-20 bg-white/60 backdrop-blur-md">
+  <div class="max-w-4xl mx-auto text-center px-6">
+    <h2 class="text-3xl font-bold mb-6">Tentang Saya</h2>
+    <p>
+      Saya adalah mahasiswa informatika yang memiliki minat pada pengembangan web
+      dan desain UI/UX. Saya senang menciptakan tampilan yang modern, responsif,
+      dan mudah digunakan.
+    </p>
+  </div>
+</section>
+
+<!-- SKILL -->
+<section id="skills" class="py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Skill & Minat</h2>
+
+    <div class="space-y-6">
+
+      <div>
+        <p>UI/UX Design</p>
+        <div class="w-full bg-white/70 rounded-full">
+          <div class="bg-[#E87461] p-1 rounded-full w-4/5"></div>
+        </div>
+      </div>
+
+      <div>
+        <p>HTML</p>
+        <div class="w-full bg-white/70 rounded-full">
+          <div class="bg-[#E87461] p-1 rounded-full w-5/6"></div>
+        </div>
+      </div>
+
+      <div>
+        <p>CSS / Tailwind</p>
+        <div class="w-full bg-white/70 rounded-full">
+          <div class="bg-[#E87461] p-1 rounded-full w-4/5"></div>
+        </div>
+      </div>
+
+      <div>
+        <p>JavaScript</p>
+        <div class="w-full bg-white/70 rounded-full">
+          <div class="bg-[#E87461] p-1 rounded-full w-3/4"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PENUGASAN -->
+<section id="penugasan" class="py-20 bg-white/60 backdrop-blur-md">
+  <h2 class="text-3xl font-bold text-center mb-12">Penugasan</h2>
+
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+
+    <div class="bg-white/80 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">
+        Penugasan 2 - Dokumen
+      </h3>
+      <p class="mb-4">
+        Laporan TOR LKMM-TH dalam bentuk dokumen PDF.
+      </p>
+      <a href="assets/penugasan/TOR Fidella Rafida Ariani.pdf" target="_blank" class="bg-[#E87461] hover:bg-[#d65a47] text-white px-4 py-2 rounded-lg transition">
+        Lihat
+      </a>
+    </div>
+
+    <div class="bg-white/80 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">
+        Penugasan 3 - Infografis informatif
+      </h3>
+      <p class="mb-4">
+        Infografis informatif dengan tema pendidikan.
+      </p>
+      <a href="assets/penugasan/infografis kretif.jpeg" target="_blank" 
+      class="bg-[#E87461] hover:bg-[#d65a47] text-white px-4 py-2 rounded-lg transition">
+        Lihat
+      </a>
+    </div>
+
+    <div class="bg-white/80 p-6 rounded-2xl shadow-lg">
+      <h3 class="text-xl font-semibold mb-2">
+        Penugasan 4 - Video
+      </h3>
+      <p class="mb-4">
+        Video kreatif yang berisi solusi atas permasalahan studi kasus.
+      </p>
+      <a href="assets/penugasan/video penugasan eksekutif.mp4" class="bg-[#E87461] hover:bg-[#d65a47] text-white px-4 py-2 rounded-lg transition">
+        Tonton
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-white/60 backdrop-blur-md text-center">
+  <h2 class="text-3xl font-bold mb-6">Contact</h2>
+  <p>Email: fidella.rafida.tif425@polban.ac.id</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#E87461] text-white text-center py-4">
+  © 2026 Fidella Rafida Ariani
+</footer>
+
+</body>
+</html>
